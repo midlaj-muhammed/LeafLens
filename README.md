@@ -107,15 +107,13 @@ When you identify a plant using LeafLens, you'll receive comprehensive informati
 
 ## 📦 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/dead4720-b7aa-439c-a42a-8770a3287f0c) and click on Share -> Publish.
+Deploy this project to Vercel for the best performance and reliability.
 
 ## 🔗 Custom Domain
 
 Yes, you can connect your own domain!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+To connect a domain, navigate to your Vercel project settings, select Domains, and follow the instructions to add your custom domain.
 
 ## 📸 Screenshots
 
