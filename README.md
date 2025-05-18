@@ -134,4 +134,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Plant data and images from various botanical resources
 - Icons from [Lucide Icons](https://lucide.dev/)
 - AI-powered identification by Google Gemini API
-# LeafLens
+
