@@ -4,7 +4,7 @@
 
 LeafLens is an AI-powered plant identification application that helps users identify plants through image uploads or text descriptions, providing detailed care information and growing tips.
 
-**🔗 Live Demo**: [View LeafLens App](https://lovable.dev/projects/dead4720-b7aa-439c-a42a-8770a3287f0c)
+**🔗 Live Demo**: [View LeafLens App](https://leaf-lens-one.vercel.app/)
 
 <!-- You can add a banner image of your app here -->
 
