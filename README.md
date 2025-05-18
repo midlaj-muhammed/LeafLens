@@ -120,7 +120,7 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 ## 📸 Screenshots
 
 
-![Plant Identification](path/to/screenshot1.png)
+![Plant Identification](screenshot/PlantIdentification.png)
 ![Plant Database](screenshot/Plant-Database.png)
 
 
