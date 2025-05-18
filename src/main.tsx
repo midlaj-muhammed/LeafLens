@@ -11,8 +11,21 @@ if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Clerk Publishable Key");
 }
 
+// Define routing and navigation configuration for Clerk
+const clerkAppearance = {
+  layout: {
+    socialButtonsVariant: "iconButton",
+    socialButtonsPlacement: "bottom"
+  }
+};
+
 createRoot(document.getElementById("root")!).render(
-  <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
+  <ClerkProvider
+    publishableKey={PUBLISHABLE_KEY}
+    afterSignOutUrl="/"
+    navigate={(to) => window.location.href = to}
+    appearance={clerkAppearance}
+  >
     <App />
   </ClerkProvider>
 );

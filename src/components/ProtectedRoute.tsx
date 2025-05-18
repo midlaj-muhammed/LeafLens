@@ -1,17 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useAuth, SignIn } from '@clerk/clerk-react';
-import { Navigate } from 'react-router-dom';
+import { Navigate, useLocation } from 'react-router-dom';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
   redirectTo?: string;
 }
 
-const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ 
-  children, 
-  redirectTo = '/' 
+const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
+  children,
+  redirectTo = '/'
 }) => {
   const { isLoaded, isSignedIn } = useAuth();
+  const location = useLocation();
+
+  // Handle Clerk handshake parameter if present
+  useEffect(() => {
+    // Check if URL contains Clerk handshake parameter
+    const url = new URL(window.location.href);
+    const hasClerkHandshake = url.searchParams.has('__clerk_handshake');
+
+    if (hasClerkHandshake && isSignedIn) {
+      // Remove the handshake parameter and replace the URL
+      url.searchParams.delete('__clerk_handshake');
+      window.history.replaceState({}, document.title, url.toString());
+    }
+  }, [isLoaded, isSignedIn, location]);
 
   // Show loading state while Clerk is initializing
   if (!isLoaded) {
