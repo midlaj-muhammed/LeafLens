@@ -119,11 +119,10 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 ## 📸 Screenshots
 
-<!-- Add your app screenshots here -->
-<!-- Example:
+
 ![Plant Identification](path/to/screenshot1.png)
 [Plant Database](screenshot/Plant Database.png)
--->
+
 
 ## 📄 License
 
