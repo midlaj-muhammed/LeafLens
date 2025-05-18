@@ -122,7 +122,7 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 <!-- Add your app screenshots here -->
 <!-- Example:
 ![Plant Identification](path/to/screenshot1.png)
-![Plant Database](path/to/screenshot2.png)
+[Plant Database](screenshot/Plant Database.png)
 -->
 
 ## 📄 License
