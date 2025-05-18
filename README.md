@@ -4,7 +4,7 @@
 
 LeafLens is an AI-powered plant identification application that helps users identify plants through image uploads or text descriptions, providing detailed care information and growing tips.
 
-**🔗 Live Demo**: [View LeafLens App](https://lovable.dev/projects/dead4720-b7aa-439c-a42a-8770a3287f0c)
+**🔗 Live Demo**: [View LeafLens App](https://leaf-lens-one.vercel.app/)
 
 <!-- You can add a banner image of your app here -->
 
@@ -107,23 +107,20 @@ When you identify a plant using LeafLens, you'll receive comprehensive informati
 
 ## 📦 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/dead4720-b7aa-439c-a42a-8770a3287f0c) and click on Share -> Publish.
+Deploy this project to Vercel for the best performance and reliability.
 
 ## 🔗 Custom Domain
 
 Yes, you can connect your own domain!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+To connect a domain, navigate to your Vercel project settings, select Domains, and follow the instructions to add your custom domain.
 
 ## 📸 Screenshots
 
-<!-- Add your app screenshots here -->
-<!-- Example:
-![Plant Identification](path/to/screenshot1.png)
-![Plant Database](path/to/screenshot2.png)
--->
+
+![Plant Identification](screenshot/PlantIdentification.png)
+![Plant Database](screenshot/Plant-Database.png)
+
 
 ## 📄 License
 
@@ -134,4 +131,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Plant data and images from various botanical resources
 - Icons from [Lucide Icons](https://lucide.dev/)
 - AI-powered identification by Google Gemini API
-# LeafLens
+
