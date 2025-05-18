@@ -121,7 +121,7 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 
 ![Plant Identification](path/to/screenshot1.png)
-![Plant Database](screenshot/Plant Database.png)
+![Plant Database](screenshot/Plant-Database.png)
 
 
 ## 📄 License
